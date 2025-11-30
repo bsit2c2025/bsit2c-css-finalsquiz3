@@ -3,3 +3,13 @@
 *{
     box-sizing:border-box;
 }
+
+.inline-box{
+    background-color: black;
+    color: white;
+    width:auto;
+    height: auto;
+    padding:1px;
+    text-align: center;
+    border:solid purple;
+}
