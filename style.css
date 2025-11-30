@@ -14,7 +14,7 @@
     border:solid purple;
 }
 
-.internal-box{
+.internal-box, .external-box{
     background-color: black;
     color: white;
     width:auto;
