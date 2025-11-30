@@ -13,3 +13,12 @@
     text-align: center;
     border:solid purple;
 }
+
+.internal-box{
+    background-color: black;
+    color: white;
+    width:auto;
+    height: auto;
+    padding:1px;
+    border:solid purple;
+}
