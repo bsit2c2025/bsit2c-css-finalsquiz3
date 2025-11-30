@@ -183,8 +183,47 @@ h1 {
 
             <p>Code Output : </p>
             <div class="box">Content</div>
+            <p>box-sizing : </p>
+            <ul>
+                <li>Default: content-box → width applies only to content.</li>
+                <li>Preferred: box-sizing: border-box; makes width include padding and border.</li>
+            </ul>
+            <div class="box-model-box">
+                * { <span style="color:green">box-sizing</span>: border-box; }
+            </div>
+            
             <hr>
         </div>
+
+        <div class="margin">
+            <hr>
+            <h1>Margin collapse & spacing tips</h1>
+            <ul>
+                <li>Vertical margins between blocks may collapse — margin behavior matters.</li>
+                <li>Use padding inside boxes to prevent collapse when needed.</li>
+                <li>Use gap in flex/grid instead of margins for consistent spacing.</li>
+            </ul>
+            <hr>
+        </div>
+
+        <div class="layout">
+            <hr>
+            <h1>Layout techniques</h1>
+            <ul>
+                <li>Traditional: floats (legacy), inline-block (legacy)</li>
+                <li>Modern: Flexbox (one-dimensional) and Grid (two- dimensional)</li>
+                <li>
+                    When to use:
+                    <ul>
+                        <li>Flexbox → for rows/columns and distribution of items along a single axis (navs, toolbars, cards row)</li>
+                        <li>Grid → for full-page or complex two-dimensional layouts (hero + sidebar + content, dashboards)</li>
+                    </ul>
+                </li>
+            </ul>
+            <hr>
+        </div>
+
+        
 
     </body>
 
