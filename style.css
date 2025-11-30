@@ -14,7 +14,7 @@
     border:solid purple;
 }
 
-.internal-box, .external-box, .css-syntax-box{
+.internal-box, .external-box, .css-syntax-box, .box-model-box{
     background-color: black;
     color: white;
     width:auto;
